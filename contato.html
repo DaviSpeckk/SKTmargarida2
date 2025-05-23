@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contato - SKTmargarida</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>SKTmargarida</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Contato</h2>
+    <p>Email: contato@sktmargarida.com</p>
+    <p>WhatsApp: (11) 99999-9999</p>
+    <h3>Pix</h3>
+    <div id="qrCodePix" class="qr-code"></div>
+    <button onclick="gerarQRCodePix(100)">Gerar QR Code de R$100</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

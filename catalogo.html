@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Catálogo - SKTmargarida</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>SKTmargarida</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Catálogo</h2>
+    <div class="filtros">
+      <button onclick="filtrar('todos')">Todos</button>
+      <button onclick="filtrar('camisetas')">Camisetas</button>
+      <button onclick="filtrar('calças')">Calças</button>
+      <button onclick="filtrar('bonés')">Bonés</button>
+    </div>
+    <div id="produtos"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

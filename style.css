@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+header {
+  background: #000;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  padding: 2em;
+}
+.produto {
+  border: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 8px;
+  background: #f8f8f8;
+}
+.produto img {
+  max-width: 200px;
+}
+.filtros button {
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  background: #eee;
+  border: none;
+  cursor: pointer;
+}
+.filtros button.active {
+  background: #c3aed6;
+}
+.qr-code {
+  margin-top: 1em;
+}
